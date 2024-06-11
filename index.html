@@ -1,0 +1,220 @@
+<html>
+
+<head>
+	<title>Movie</title>
+
+	<link rel="shortcut icon" href="images/logo.png" type="">
+	<meta name="description" content="">
+	<meta name="keywords" content="logo , افلام , افلام اجنبي ,Films, Science fiction movies">
+	<meta name="author" content="Mohamed Salem">
+	<meta http-equiv="content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+	<!--ده علشان اقبال م الموقع يفتح-->
+	<section id="loading" class="  justify-content-center align-items-center">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</section>
+
+
+	<div class="" id="sideBar">
+		<div class="nav-tab-menu open-menu" id="boxMenu">
+			<div class="nav-item position-relative">
+				<ul>
+					<li id="playing" class="item1 pt-4"><a class="nav-category" href="#">Now playing</a></li>
+					<li id="popular" class="item2 pt-4"><a class="nav-category" href="#">Popular</a></li>
+					<li id="Rated" class="item3 pt-4"><a class="nav-category" href="#">Top Rated</a></li>
+					<li id="Trending" class="item5 pt-4"><a class="nav-category" href="#">Trending</a></li>
+					<li id="Upcoming" class="item6 pt-4"><a class="nav-category" href="#">Upcoming</a></li>
+					<li id="Contact" class="item6 pt-4"><a class="nav-category" href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="nav-social-item">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fas fa-globe"></i></a>
+				<div class="pt-3">
+					<span>Copyright Â© 2019 All Rights Reserved.</span>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------->
+		<div class="strip-header-nav">
+
+			<div class="strip-logo">
+				<img class="w-50" src="images/logo.png">
+			</div>
+			<div class="strip-toggel-menu" id="menu">
+				<i class="fas fa-align-justify"></i>
+			</div>
+
+			<div class="strip-social-icon">
+				<div class="strip-lang py-2">
+					<span>
+						<i class="fas fa-globe"></i>
+					</span>
+				</div>
+
+				<div class="strip-share py-2">
+					<span>
+						<i class="fas fa-share-alt"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--=================================================================================================================-->
+
+	<section class="pt-5" id="Now">
+		<div class="container w-75 myM">
+			<div class="row">
+				<div class="col-md-6">
+					<input id="word" class="form-control mb-5 text-center" placeholder="get movies by word...">
+				</div>
+
+				<div class="col-md-6">
+					<input class="form-control text-center" id="search" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--000000000000000000000000000000-->
+
+
+
+
+	<section class="container text-center my-1 py-2">
+
+		<div class="row" id="rowData">
+			<div class="col-md-6 col-sm-12 my-3 shadow">
+				</div>>
+			<!--
+				<div class="col-md-4 col-sm-12 my-3 shadow">
+					
+					<div class="movie shadow rounded position-relative">
+						<div class="post">
+							<img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg" class="img-fluid rounded">
+							<div class="layer d-flex align-items-center p-2 shadow ">
+								<div class=" ">
+							   
+									<h2>Wonder Woman 1984</h2>
+									<p>Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.</p>
+									<p>rate: 7.3</p>
+									<p>2020-12-16</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				-->
+		</div>
+	</section>
+
+
+
+
+
+	<!-- -------------------------------------- -->
+	<section>
+	
+			<div id="lightBoxContainer" class=" justify-content-center align-items-center">
+
+
+		
+			</div>
+	</section>
+	
+	<!-- 
+		<div id="lightBoxContainer" class=" justify-content-center align-items-center">
+			<div id="lightBoxItem" class="position-relative d-flex align-items-center justify-content-between">
+				
+			</div>
+		</div> -->
+	<!--==============================================================================================-->
+
+
+
+	<section id="contact" class="container myM w-75 mx-auto my-5 ">
+		<h2 class="text-light my-5">ContacUs...</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" id="name" placeholder="Enter Your Name">
+					<div class="alert alert-danger d-none" id="namealert" role="alert">
+						Your Name is not valid
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" type="email" id="email" placeholder="Enter Email">
+
+					<div class="alert alert-danger  d-none" id="emailalert" role="alert">
+						entre valid email
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" id="phone" placeholder="Enter phone">
+					<div class="alert alert-danger  d-none" id="phonealert" role="alert">
+						entre valid phone
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" id="age" placeholder="Enter Age">
+					<div class="alert alert-danger d-none" id="agealert" role="alert">
+						Entry is valid for age from 20 to 100
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" type="password" id="password" placeholder="Enter Password">
+					<div class="alert alert-danger d-none" id="passwordalert" role="alert">
+						entre valid password *Minimum eight characters, at least one letter and one number:*
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+					<div class="alert alert-danger d-none" id="repasswordalert" role="alert">
+						entre valid Repassword
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<button type="submit" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+
+	</section>
+	<!--=================================================================================================-->
+
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index-1.js"></script>
+
+</body>
+
+</html>
